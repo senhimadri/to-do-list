@@ -16,14 +16,16 @@ const CreateToDo = () => {
   console.log("View State", globalToDOList);
 
   return (
-    <div>
+    <>
+      
+
       <ToDoInputForm setglobalToDOList={Proper} />
 
       <ViewToDoList
         setglobalToDOList={setglobalToDOList}
         Todolist={globalToDOList}
       />
-    </div>
+    </>
   );
 };
 
